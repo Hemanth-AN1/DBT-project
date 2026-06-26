@@ -37,3 +37,6 @@ models:
     
     dim:
       +materialized: table
+
+    fct:
+      +materialized: table
