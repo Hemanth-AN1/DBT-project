@@ -1,3 +1,7 @@
+{{config(
+    materialized='table'
+)}}
+
 with raw_ratings as (
     select * from netflix.raw.raw_ratings
 )
