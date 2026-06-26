@@ -1,3 +1,6 @@
+{{config(
+    materialized='table'
+    )}}
 with raw_tags as (
     select * from netflix.raw.raw_tags
 )
