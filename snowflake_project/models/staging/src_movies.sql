@@ -1,5 +1,5 @@
 with raw_movies as (
-select * from netflix.raw.raw_movies
+select * from {{ source('netflix', 'r_movies') }}
 )
 
     select
