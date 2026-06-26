@@ -1,0 +1,82 @@
+[0m21:50:27.851300 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 21:50:28.038832 | 3da4041a-f5c7-4cf8-8061-cf521676cc46 ==============================
+[0m21:50:28.038832 [info ] [MainThread]: Running with dbt=1.11.0-rc1
+[0m21:50:28.040284 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'no_print': 'None', 'write_json': 'True', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Admin\\.dbt', 'invocation_command': 'dbt init snowflake_project', 'printer_width': '80', 'target_path': 'None'}
+[0m21:50:28.117043 [debug] [MainThread]: Starter project path: C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m21:50:28.293890 [info ] [MainThread]: 
+Your new dbt project "snowflake_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:50:28.302008 [info ] [MainThread]: Setting up your profile.
+[0m22:01:53.221286 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 22:01:53.534115 | c53c1475-8bb8-49b6-80ac-52fdabd18df0 ==============================
+[0m22:01:53.534115 [info ] [MainThread]: Running with dbt=1.11.0-rc1
+[0m22:01:53.534115 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt init snowflake_project', 'profiles_dir': 'C:\\Users\\Admin\\.dbt', 'target_path': 'None', 'log_format': 'default', 'printer_width': '80', 'warn_error': 'None', 'static_parser': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'use_colors': 'True', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m22:01:53.592192 [debug] [MainThread]: Starter project path: C:\Users\Admin\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m22:01:53.644538 [info ] [MainThread]: 
+Your new dbt project "snowflake_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:01:53.646722 [info ] [MainThread]: Setting up your profile.
+[0m22:03:24.694337 [info ] [MainThread]: Profile snowflake_project written to C:\Users\Admin\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:03:24.697318 [debug] [MainThread]: Command `dbt init` succeeded at 22:03:24.697318 after 91.63 seconds
+[0m22:03:24.700019 [debug] [MainThread]: Flushing usage events
+[0m22:03:44.095584 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 22:03:44.568456 | 2c670041-0b03-40de-8f7c-e75f447dd88a ==============================
+[0m22:03:44.568456 [info ] [MainThread]: Running with dbt=1.11.0-rc1
+[0m22:03:44.573637 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'no_print': 'None', 'invocation_command': 'dbt debug', 'write_json': 'True', 'log_format': 'default', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Admin\\.dbt', 'use_colors': 'True', 'printer_width': '80', 'target_path': 'None'}
+[0m22:03:44.682952 [info ] [MainThread]: dbt version: 1.11.0-rc1
+[0m22:03:44.687460 [info ] [MainThread]: python version: 3.12.9
+[0m22:03:44.687460 [info ] [MainThread]: python path: C:\Users\Admin\AppData\Local\Programs\Python\Python312\python.exe
+[0m22:03:44.687460 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m22:03:46.229108 [info ] [MainThread]: Using profiles dir at C:\Users\Admin\.dbt
+[0m22:03:46.229108 [info ] [MainThread]: Using profiles.yml file at C:\Users\Admin\.dbt\profiles.yml
+[0m22:03:46.231216 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Admin\OneDrive\DBT learing\Netflix Dbt Project\DBT-project\dbt_project.yml
+[0m22:03:46.231216 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m22:03:46.231216 [debug] [MainThread]: Command `dbt debug` failed at 22:03:46.231216 after 2.38 seconds
+[0m22:03:46.231216 [debug] [MainThread]: Flushing usage events
+[0m22:04:59.370149 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 22:04:59.546879 | 041856f1-b353-4e9e-9e66-20a49937b365 ==============================
+[0m22:04:59.546879 [info ] [MainThread]: Running with dbt=1.11.0-rc1
+[0m22:04:59.548690 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt run', 'log_format': 'default', 'no_print': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'False', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Admin\\.dbt', 'use_colors': 'True', 'printer_width': '80', 'write_json': 'True'}
+[0m22:04:59.551198 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Admin\OneDrive\DBT learing\Netflix Dbt Project\DBT-project\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:04:59.553121 [debug] [MainThread]: Command `dbt run` failed at 22:04:59.552433 after 0.39 seconds
+[0m22:04:59.553810 [debug] [MainThread]: Flushing usage events
