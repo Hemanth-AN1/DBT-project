@@ -9,6 +9,6 @@ tags as (
 select distinct user_id 
 from (
     select * from ratings
-    union all
+    union 
     select * from tags
 )
